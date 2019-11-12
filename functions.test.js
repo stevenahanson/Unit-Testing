@@ -12,3 +12,7 @@ test('should be null', () => {
     expect(functions.isNull()).toBeNull();
 });
 
+test('should be falsy', () => {
+    expect(functions.checkValue(null)).toBeFalsy();
+});
+
