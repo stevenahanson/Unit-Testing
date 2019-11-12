@@ -1,0 +1,23 @@
+{
+  "name": "Unit-Testing",
+  "version": "1.0.0",
+  "description": "Jest Unit Testing in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EssayHanson/Unit-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EssayHanson/Unit-Testing/issues"
+  },
+  "homepage": "https://github.com/EssayHanson/Unit-Testing#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
