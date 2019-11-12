@@ -35,3 +35,14 @@ test('should be under 1600', () => {
     const load2 = 700;
     expect(load1 + load2).toBeLessThan(1600);
 });
+
+// regex
+test('there is no I in team', () => {
+    expect('team').not.toMatch(/I/i);
+});
+
+// arrays
+test('Admin should be in usernames', () => {
+    usernames = ['john', 'karen', 'admin'];
+    expect(usernames).toContain('admin');
+});
